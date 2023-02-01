@@ -30,3 +30,20 @@ public class all_elements_of_a_binarysearchtree {
         return res;
     }
 }
+public class Node
+{
+    private List<Node> TreeNode = null;
+    private String value;
+
+    public Node(String value)
+    {
+        this.children = new ArrayList<>();
+        this.value = value;
+    }
+
+    public void addChild(Node child)
+    {
+        children.add(child);
+    }
+
+}
